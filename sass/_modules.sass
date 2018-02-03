@@ -19,10 +19,59 @@
   > li:hover
     border-bottom: 5px solid #b88b58
 
-
-
 .navbar__list--item
-  font-size: 14px
+  @include font-size(14px)
   padding: 0 10px
-  color: white
+  color: #ffffff
   text-transform: uppercase
+
+/* Hero */
+
+.carousel__wrapper
+  max-width: 1800px
+  overflow: hidden
+
+.carousel__inner
+
+.carousel__item--first
+  height: 550px
+  max-width: 1800px
+  width: 100vw
+  background: url(../images/img-01.png)
+  @include background-properties
+
+.carousle__item--inner
+  height: 550px
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+
+.carousle__item--title
+  @include font-size(65px)
+  text-transform: uppercase
+  font-weight: 700
+  color: #ffffff
+  span
+    color: #b88b58
+
+.carousle__item--text
+  padding: 2% 0 4% 0
+  @include font-size(19px)
+  text-transform: uppercase
+  font-weight: 400
+  color: #ffffff
+
+.carousle__item--button
+  padding: 16px 48px
+  border-radius: 30px
+  background-color: #b88b58
+  @include font-size(12px)
+  font-weight: 700
+  text-transform: uppercase
+  color: #ffffff
+  cursor: pointer
+  &:hover
+    background-color: #E5AD6E
+
+.carousel__item--second
