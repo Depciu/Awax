@@ -1,5 +1,5 @@
 {
-  "name": "Wrax",
+  "name": "Awax",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Depciu/Wrax.git"
+    "url": "git+https://github.com/Depciu/Awax.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Depciu/Wrax/issues"
+    "url": "https://github.com/Depciu/Awax/issues"
   },
-  "homepage": "https://github.com/Depciu/Wrax#readme",
+  "homepage": "https://github.com/Depciu/Awax#readme",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
