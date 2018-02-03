@@ -1,3 +1,4 @@
+
 /* Navigation */
 
 #nav
@@ -26,12 +27,11 @@
   text-transform: uppercase
 
 /* Hero */
+
 /* Carousel */
 
 .carousel__wrapper
-  position: relative
   max-width: 1800px
-  overflow: hidden
 
 .carousel__inner
   display: flex
@@ -109,3 +109,40 @@
   border: 2px solid #b88b58
   &:hover
     background-color: #b88b58
+
+/* Phone icon */
+
+.phone-icon
+  height: 70px
+  width: 70px
+  position: absolute
+  bottom: -35px
+  right: -40px
+  cursor: pointer
+  &:hover
+    filter: brightness(115%)
+
+/* Section titles */
+
+.section__title
+  text-align: center
+  text-transform: uppercase
+
+.section__title--heading
+  @include font-size(30px)
+  font-weight: 700
+  color: #000000
+
+.section__title--text
+  @include font-size(14px)
+  padding-top: 5%
+  color: #aeaeae
+
+
+/* Aobut Us */
+
+.About-Us__wrapper
+  display: flex
+  @include padding50px
+  align-items: center
+  justify-content: center
