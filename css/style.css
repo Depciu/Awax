@@ -53,6 +53,10 @@ a {
 body {
   font-family: "Montserrat", sans-serif; }
 
+section {
+  max-width: 1800px;
+  margin: 0 auto; }
+
 .container {
   width: 100%;
   padding: 0 15px 0 15px;
@@ -98,15 +102,39 @@ body {
   text-transform: uppercase; }
 
 /* Hero */
+/* Carousel */
 .carousel__wrapper {
+  position: relative;
   max-width: 1800px;
   overflow: hidden; }
 
-.carousel__item--first {
+.carousel__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.carousel__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100vw;
+          flex: 1 0 100vw;
   height: 550px;
-  max-width: 1800px;
   width: 100vw;
-  background: url(../images/img-01.png);
+  max-width: 1800px; }
+
+.first {
+  background: url(../images/hero-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.second {
+  background: url(../images/hero-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.third {
+  background: url(../images/hero-3.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -153,3 +181,25 @@ body {
   cursor: pointer; }
   .carousle__item--button:hover {
     background-color: #E5AD6E; }
+
+/* Bullets */
+.bullets {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 5%; }
+
+.bullets__list {
+  font-size: 0;
+  cursor: pointer; }
+
+.bullets__list--item {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-left: 9px;
+  border-radius: 50%;
+  border: 2px solid #b88b58; }
+  .bullets__list--item:hover {
+    background-color: #b88b58; }

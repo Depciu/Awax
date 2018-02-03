@@ -26,18 +26,32 @@
   text-transform: uppercase
 
 /* Hero */
+/* Carousel */
 
 .carousel__wrapper
+  position: relative
   max-width: 1800px
   overflow: hidden
 
 .carousel__inner
+  display: flex
 
-.carousel__item--first
+.carousel__item
+  flex: 1 0 100vw
   height: 550px
-  max-width: 1800px
   width: 100vw
-  background: url(../images/img-01.png)
+  max-width: 1800px
+
+.first
+  background: url(../images/hero-1.png)
+  @include background-properties
+
+.second
+  background: url(../images/hero-2.jpg)
+  @include background-properties
+
+.third
+  background: url(../images/hero-3.jpeg)
   @include background-properties
 
 .carousle__item--inner
@@ -74,4 +88,24 @@
   &:hover
     background-color: #E5AD6E
 
-.carousel__item--second
+/* Bullets */
+
+.bullets
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  bottom: 5%
+
+.bullets__list
+  font-size: 0
+  cursor: pointer
+
+.bullets__list--item
+  display: inline-block
+  height: 13px
+  width: 13px
+  margin-left: 9px
+  border-radius: 50%
+  border: 2px solid #b88b58
+  &:hover
+    background-color: #b88b58
