@@ -103,8 +103,12 @@ section {
   text-transform: uppercase; }
 
 /* Hero */
+#hero {
+  position: relative; }
+
 /* Carousel */
 .carousel__wrapper {
+  position: relative;
   max-width: 1800px; }
 
 .carousel__inner {
@@ -138,11 +142,15 @@ section {
   background-position: center;
   background-size: cover; }
 
+.title {
+  text-align: center; }
+
 .carousle__item--inner {
   height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -157,10 +165,16 @@ section {
 .carousle__item--title {
   font-size: 3.8235294118rem;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 700;
   color: #ffffff; }
   .carousle__item--title span {
+    display: block;
+    font-size: 3.9411764706rem;
+    letter-spacing: 2px;
     color: #b88b58; }
+    .carousle__item--title span:first-child {
+      color: #ffffff; }
 
 .carousle__item--text {
   padding: 2% 0 4% 0;

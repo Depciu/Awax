@@ -28,9 +28,13 @@
 
 /* Hero */
 
+#hero
+  position: relative
+
 /* Carousel */
 
 .carousel__wrapper
+  position: relative
   max-width: 1800px
 
 .carousel__inner
@@ -54,9 +58,13 @@
   background: url(../images/hero-3.jpeg)
   @include background-properties
 
+.title
+  text-align: center
+
 .carousle__item--inner
   height: 550px
   display: flex
+  text-align: center
   align-items: center
   justify-content: center
   flex-direction: column
@@ -64,10 +72,16 @@
 .carousle__item--title
   @include font-size(65px)
   text-transform: uppercase
+  text-align: center
   font-weight: 700
   color: #ffffff
   span
+    display: block
+    @include font-size(67px)
+    letter-spacing: 2px
     color: #b88b58
+    &:first-child
+      color: #ffffff
 
 .carousle__item--text
   padding: 2% 0 4% 0
