@@ -223,7 +223,7 @@ section {
   width: 70px;
   position: absolute;
   bottom: -35px;
-  right: -40px;
+  right: 1%;
   cursor: pointer; }
   .phone-icon:hover {
     -webkit-filter: brightness(115%);
