@@ -143,11 +143,14 @@
   padding-top: 10px
   color: #aeaeae
 
+.white
+  color: #ffffff
 
 /* Aobut Us */
 
 #About-Us
   @include padding50px
+  background-color: #f7f7f7
 
 
 .About-Us__content
@@ -166,3 +169,40 @@
   line-height: 25px
   font-weight: 300
   color: #242424
+
+/*Service*/
+
+#Service
+  @include padding50px
+  background-color: #000000
+
+.Service__content
+  display: flex
+  align-items: center
+  justify-content: center
+  padding-top: 3%
+
+.Service__item
+  border-left: 1px solid #bebebe
+  text-align: center
+  &:last-child
+    border-right: 1px solid #bebebe
+
+.Service__item--icon
+  height: 60px
+  width: 60px
+
+.Service__item--title
+  padding-top: 11%
+  @include font-size(18px)
+  text-transform: uppercase
+  line-height: 18px
+  font-weight: 700
+  color: #ffffff
+
+.Service__item--text
+  padding-top: 1%
+  @include font-size(12px)
+  line-height: 24px
+  font-weight: 300
+  color: #7e7e7e
