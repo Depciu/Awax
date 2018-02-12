@@ -173,7 +173,7 @@ section {
   font-weight: 400;
   color: #ffffff; }
 
-.carousle__item--button {
+.button {
   padding: 16px 48px;
   border-radius: 30px;
   background-color: #b88b58;
@@ -182,7 +182,7 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer; }
-  .carousle__item--button:hover {
+  .button:hover {
     background-color: #E5AD6E; }
 
 /* Bullets */
@@ -232,18 +232,33 @@ section {
 
 .section__title--text {
   font-size: 0.8235294118rem;
-  padding-top: 5%;
+  padding-top: 10px;
   color: #aeaeae; }
 
 /* Aobut Us */
-.About-Us__wrapper {
+#About-Us {
+  padding: 50px 0 50px 0; }
+
+.About-Us__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 50px 0 50px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin-top: 50px; }
+
+.About-Us__info {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-right: 2%; }
+
+.About-Us__info--text {
+  padding-bottom: 5%;
+  font-size: 0.8823529412rem;
+  line-height: 25px;
+  font-weight: 300;
+  color: #242424; }

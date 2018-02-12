@@ -80,7 +80,7 @@
   font-weight: 400
   color: #ffffff
 
-.carousle__item--button
+.button
   padding: 16px 48px
   border-radius: 30px
   background-color: #b88b58
@@ -140,14 +140,29 @@
 
 .section__title--text
   @include font-size(14px)
-  padding-top: 5%
+  padding-top: 10px
   color: #aeaeae
 
 
 /* Aobut Us */
 
-.About-Us__wrapper
-  display: flex
+#About-Us
   @include padding50px
+
+
+.About-Us__content
+  display: flex
   align-items: center
   justify-content: center
+  margin-top: 50px
+
+.About-Us__info
+  align-self: flex-start
+  padding-right: 2%
+
+.About-Us__info--text
+  padding-bottom: 5%
+  @include font-size(15px)
+  line-height: 25px
+  font-weight: 300
+  color: #242424
