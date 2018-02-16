@@ -217,6 +217,9 @@
   display: flex
   align-items: center
   justify-content: center
+  flex-direction: column
+
+/*nav gallery*/
 
 .nav-gallery
   display: flex
@@ -244,3 +247,38 @@
   &:hover
     margin: 0 5px
     border-bottom-color: #b88b58
+
+/* gallery */
+
+.gallery
+  margin-top: 25px
+
+.gallery__item--photo
+  position: relative
+  cursor: pointer
+  &:hover
+    .photo__layer
+      display: flex
+
+.photo__layer
+  display: none
+  position: absolute
+  top: 0
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  height: 165px
+  width: 255px
+  background-image: url(../images/colored.png)
+  @include background-properties
+  color: #ffffff
+
+.photo__layer--title
+  @include font-size(20px)
+
+.photo__layer--text
+  @include font-size(14px)
+  line-height: 23px
+  text-align: center
+  font-weight: 300
+  padding-top: 12px
