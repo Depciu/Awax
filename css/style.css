@@ -313,3 +313,46 @@ section {
 #Project {
   padding: 50px 0 50px 0;
   background-color: #f7f7f7; }
+
+.Project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.nav-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px; }
+
+.nav-gallery__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-left: 1px solid #aeaeae;
+  background-color: #ededed;
+  cursor: pointer; }
+  .nav-gallery__item:first-child {
+    padding-left: 30px;
+    border-left: none;
+    border-radius: 42% 0 0 42%; }
+  .nav-gallery__item:last-child {
+    padding-right: 31px;
+    border-radius: 0 42% 42% 0; }
+
+.nav-gallery__button {
+  margin: 0 5px;
+  padding: 30px 30px 20px 30px;
+  border-bottom: 5px solid #ededed;
+  background-color: #ededed; }
+  .nav-gallery__button:hover {
+    margin: 0 5px;
+    border-bottom-color: #b88b58; }

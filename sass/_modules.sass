@@ -211,4 +211,36 @@
 
 #Project
   @include padding50px
-  background-color: #f7f7f7  
+  background-color: #f7f7f7
+
+.Project-content
+  display: flex
+  align-items: center
+  justify-content: center
+
+.nav-gallery
+  display: flex
+  margin-top: 50px
+
+.nav-gallery__item
+  display: flex
+  align-self: center
+  border-left: 1px solid #aeaeae
+  background-color: #ededed
+  cursor: pointer
+  &:first-child
+    padding-left: 30px
+    border-left: none
+    border-radius: 42% 0 0 42%
+  &:last-child
+    padding-right: 31px
+    border-radius: 0 42% 42% 0
+
+.nav-gallery__button
+  margin: 0 5px
+  padding: 30px 30px 20px 30px
+  border-bottom: 5px solid #ededed
+  background-color: #ededed
+  &:hover
+    margin: 0 5px
+    border-bottom-color: #b88b58
