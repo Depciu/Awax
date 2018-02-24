@@ -364,7 +364,32 @@ section {
 
 /* gallery */
 .gallery {
-  margin-top: 25px; }
+  margin-top: 25px;
+  width: 100%; }
+
+.gallery__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.gallery__title {
+  width: 100%;
+  padding: 3% 0 3% 0;
+  text-align: center;
+  font-size: 1.7647058824rem;
+  font-weight: 300;
+  color: #000000; }
+
+.gallery__item {
+  margin: 1%; }
 
 .gallery__item--photo {
   position: relative;
