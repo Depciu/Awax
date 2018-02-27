@@ -117,6 +117,15 @@ section {
   display: flex; }
 
 .carousel__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 100vw;
           flex: 1 0 100vw;
@@ -434,3 +443,20 @@ section {
 
 #gallery__button {
   margin-top: 2%; }
+
+/* Our Team */
+#Our-Team {
+  padding: 50px 0 50px 0;
+  background: url(../images/bg-our-team.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.Our-Team__card {
+  height: 435px;
+  width: 353px;
+  background: #ffffff; }
+
+.social-icon {
+  height: 33px;
+  width: 33px; }

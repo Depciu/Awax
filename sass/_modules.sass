@@ -41,6 +41,9 @@
   display: flex
 
 .carousel__item
+  display: flex
+  align-items: center
+  justify-content: center
   flex: 1 0 100vw
   height: 550px
   width: 100vw
@@ -303,4 +306,20 @@
   padding-top: 12px
 
 #gallery__button
-  margin-top: 2%  
+  margin-top: 2% 
+
+/* Our Team */  
+
+#Our-Team
+  @include padding50px
+  background: url(../images/bg-our-team.jpg)
+  @include background-properties
+
+.Our-Team__card
+  height: 435px
+  width: 353px
+  background: #ffffff
+
+.social-icon
+  height: 33px
+  width: 33px
