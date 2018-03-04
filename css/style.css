@@ -129,7 +129,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 550px;
+  padding: 50px 0 50px 0;
   width: 100vw;
   max-width: 1800px; }
 
@@ -170,7 +170,7 @@ section {
           flex: 1 0 100vw; }
 
 .hero__item {
-  height: 550px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,10 +474,9 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 15px 0 15px;
+  margin: 0 15px 25px 15px;
   height: 435px;
   width: 353px;
-  margin-bottom: 50px;
   background: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -487,7 +486,7 @@ section {
   width: 100%;
   text-align: center; }
 
-.Our-Team__card--person-name {
+.Our-Team__card--person {
   margin: 10% 0 4% 0;
   font-size: 1.2352941176rem;
   font-weight: 600;
@@ -495,7 +494,7 @@ section {
   color: #242424; }
 
 .Our-Team__card--person-position {
-  margin: 0 0 4% 0;
+  margin: 0 0 10% 0;
   font-size: 0.8823529412rem;
   color: #242424; }
 
@@ -511,3 +510,14 @@ section {
   color: #ffffff; }
   .fab:hover {
     background-color: #b88b58; }
+
+/* Happy Clients */
+#Happy-Clients {
+  padding-top: 50px;
+  max-width: 1800px;
+  background-color: #f7f7f7; }
+
+.Happy-Clients__wrapper {
+  max-width: 720px;
+  margin-bottom: 25px;
+  text-align: center; }
