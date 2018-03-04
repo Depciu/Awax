@@ -43,8 +43,8 @@
 .carousel__item
   display: flex
   align-items: center
-  justify-content: center
   flex: 1 0 100vw
+  justify-content: center
   height: 550px
   width: 100vw
   max-width: 1800px
@@ -52,23 +52,29 @@
 .first
   background: url(../images/hero-1.png)
   @include background-properties
+  justify-content: center
+  flex: 1 0 100vw
 
 .second
   background: url(../images/hero-2.jpg)
   @include background-properties
+  justify-content: center
+  flex: 1 0 100vw
 
 .third
   background: url(../images/hero-3.jpeg)
   @include background-properties
+  justify-content: center
+  flex: 1 0 100vw
 
-.carousle__item--inner
+.hero__item
   height: 550px
   display: flex
   align-items: center
   justify-content: center
   flex-direction: column
 
-.carousle__item--title
+.hero__item--title
   @include font-size(65px)
   text-transform: uppercase
   font-weight: 700
@@ -76,11 +82,11 @@
   span
     color: #b88b58
 
-.carousle__item--text
-  padding: 2% 0 4% 0
+.hero__item--text
+  padding: 3% 0 6% 0
   @include font-size(19px)
   text-transform: uppercase
-  font-weight: 400
+  font-weight: 600
   color: #ffffff
 
 .button
@@ -311,15 +317,44 @@
 /* Our Team */  
 
 #Our-Team
-  @include padding50px
+  padding-top: 50px
   background: url(../images/bg-our-team.jpg)
   @include background-properties
 
 .Our-Team__card
+  display: flex
+  margin: 0 15px 0 15px
   height: 435px
   width: 353px
+  margin-bottom: 50px
   background: #ffffff
+  align-items: center
 
-.social-icon
-  height: 33px
-  width: 33px
+.Our-Team__wrapper
+  width: 100%
+  text-align: center    
+
+.Our-Team__card--person-name
+  margin: 10% 0 4% 0
+  @include font-size(21px)
+  font-weight: 600
+  text-transform: uppercase
+  color: #242424  
+
+.Our-Team__card--person-position
+  margin: 0 0 4% 0
+  @include font-size(15px)
+  color: #242424    
+
+.fab
+  display: inline-block
+  width: 35px
+  height: 35px
+  border-radius: 50%
+  line-height: 35px
+  background-color: #bebebe
+  font-size: 15px
+  text-align: center
+  color: #ffffff
+  &:hover
+    background-color: #b88b58
