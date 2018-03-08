@@ -234,6 +234,9 @@ section {
   .bullets__list--item:hover {
     background-color: #b88b58; }
 
+.active {
+  background-color: #b88b58; }
+
 /* Phone icon */
 .phone-icon {
   height: 70px;
@@ -389,6 +392,9 @@ section {
     margin: 0 5px;
     border-bottom-color: #b88b58; }
 
+.active-button {
+  border-bottom-color: #b88b58; }
+
 /* gallery */
 .gallery {
   text-align: center;
@@ -521,3 +527,23 @@ section {
   max-width: 720px;
   margin-bottom: 25px;
   text-align: center; }
+
+.Happy-Clients__person {
+  margin: 4% 0 2% 0;
+  font-size: 1.4117647059rem;
+  font-weight: 700; }
+
+.Happy-Clients__person-position {
+  margin-bottom: 4%;
+  font-size: 1.0588235294rem;
+  font-weight: 400; }
+
+.fa-quote-left {
+  font-size: 1.4117647059rem;
+  color: #7e7e7e; }
+
+.Happy-Clients__quote {
+  margin-top: 1.5%;
+  font-size: 0.9411764706rem;
+  line-height: 25px;
+  color: #7e7e7e; }

@@ -123,6 +123,9 @@
   &:hover
     background-color: #b88b58
 
+.active
+  background-color: #b88b58   
+
 /* Phone icon */
 
 .phone-icon
@@ -257,6 +260,10 @@
     margin: 0 5px
     border-bottom-color: #b88b58
 
+.active-button
+  border-bottom-color: #b88b58
+
+
 /* gallery */
 
 .gallery
@@ -368,4 +375,24 @@
 .Happy-Clients__wrapper
   max-width: 720px
   margin-bottom: 25px
-  text-align: center    
+  text-align: center
+
+.Happy-Clients__person
+  margin: 4% 0 2% 0
+  @include font-size(24px)
+  font-weight: 700
+
+.Happy-Clients__person-position
+  margin-bottom: 4%
+  @include font-size(18px)
+  font-weight: 400
+
+.fa-quote-left
+  @include font-size(24px)
+  color: #7e7e7e
+
+.Happy-Clients__quote
+  margin-top: 1.5%
+  @include font-size(16px)
+  line-height: 25px
+  color: #7e7e7e       
