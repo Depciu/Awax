@@ -547,3 +547,20 @@ section {
   font-size: 0.9411764706rem;
   line-height: 25px;
   color: #7e7e7e; }
+
+.client-logo {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  background: #ffffff; }
+
+.client-logo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
