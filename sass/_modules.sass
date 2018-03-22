@@ -485,6 +485,35 @@
 .product-item__service--wrapper
   display: flex
   align-items: center
+  justify-content: space-between
 
 .product-item__service--feature
-  max-width: 500px       
+  max-width: 500px
+
+.product-feature__item
+  padding-bottom: 10px 
+  .far
+    margin-right: 9px
+    color: #b88b58
+
+.product-feature__title
+  @include font-size(21px)
+  font-weight: 700
+  padding-bottom: 9px
+
+.product-feature__text
+  margin-left: 30px
+  @include font-size(14px)
+  line-height: 21px
+  color: #5b5b5b
+
+.product-feature__list
+  margin-left: 30px    
+
+.product-feature__list--item
+  @include font-size(14px)
+  line-height: 21px
+  text-transform: uppercase
+  color: #5b5b5b
+  .fas
+    margin-right: 4px     
