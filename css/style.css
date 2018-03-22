@@ -640,3 +640,31 @@ section {
   cursor: pointer; }
   .product-card__button:hover {
     background-color: #b88b58; }
+
+.Price-carousel {
+  margin-top: 50px;
+  border-top: 1px solid #cfcfcf;
+  background-color: #ffffff; }
+
+.product-item__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.product-item__service--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product-item__service--feature {
+  max-width: 500px; }
