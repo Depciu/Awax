@@ -47,6 +47,15 @@ button {
 a {
   text-decoration: none; }
 
+textarea {
+  box-shadow: none;
+  resize: none;
+  outline: none;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+  text-align: initial; }
+
 * {
   box-sizing: border-box; }
 
@@ -733,7 +742,7 @@ section {
   padding-top: 15px;
   font-size: 1.0588235294rem;
   text-transform: uppercase;
-  line-height: 18px;
+  line-height: 21px;
   font-weight: 700;
   color: #ffffff; }
 
@@ -743,3 +752,108 @@ section {
   line-height: 20px;
   font-weight: 300;
   color: #7e7e7e; }
+
+/* Contact Us */
+#Contact-Us {
+  background-color: #f7f7f7; }
+
+.Contact-Us__social--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  background-color: #ffffff; }
+
+.Contact-Us__social {
+  margin: 0 15px 0 15px; }
+
+.Contact-Us__social--link {
+  margin: 0 15px 0 15px;
+  font-weight: 700;
+  color: #aeaeae; }
+  .Contact-Us__social--link .fa-twitter {
+    background-color: #34c5f0; }
+  .Contact-Us__social--link .fa-linkedin-in {
+    background-color: #127cb4; }
+  .Contact-Us__social--link .fa-facebook-f {
+    background-color: #336297; }
+  .Contact-Us__social--link .fa-google {
+    background-color: #e74237; }
+  .Contact-Us__social--link .fa-pinterest-p {
+    background-color: #b71c29; }
+  .Contact-Us__social--link .fab {
+    margin-right: 5px; }
+  .Contact-Us__social--link .fab:hover {
+    cursor: pointer; }
+
+.Contact-Us__social--text {
+  font-size: 1.0588235294rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #aeaeae; }
+
+/* form */
+.Contact-Us__form--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center; }
+
+.id {
+  margin-bottom: 50px; }
+
+#name {
+  margin-right: 20px; }
+
+#subject, #massage {
+  width: 100%; }
+
+.subject {
+  margin: 25px 0 50px 0; }
+
+.massage {
+  margin: 25px 0 50px 0; }
+
+form {
+  margin-top: 50px; }
+
+input[type=text] {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #a4a4a4;
+  background-color: inherit;
+  color: #757575; }
+  input[type=text]::-webkit-input-placeholder {
+    text-transform: uppercase; }
+  input[type=text]:-ms-input-placeholder {
+    text-transform: uppercase; }
+  input[type=text]::placeholder {
+    text-transform: uppercase; }
+  input[type=text]:focus {
+    color: #757575;
+    outline: 0;
+    text-transform: lowercase; }
+    input[type=text]:focus::-webkit-input-placeholder {
+      text-transform: uppercase; }
+    input[type=text]:focus:-ms-input-placeholder {
+      text-transform: uppercase; }
+    input[type=text]:focus::placeholder {
+      text-transform: uppercase; }

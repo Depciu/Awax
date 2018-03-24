@@ -547,7 +547,7 @@
   padding-top: 15px
   @include font-size(18px)
   text-transform: uppercase
-  line-height: 18px
+  line-height: 21px
   font-weight: 700
   color: #ffffff
 
@@ -556,4 +556,90 @@
   @include font-size(12px)
   line-height: 20px
   font-weight: 300
-  color: #7e7e7e    
+  color: #7e7e7e
+
+/* Contact Us */
+
+#Contact-Us
+  background-color: #f7f7f7  
+
+.Contact-Us__social--wrapper
+  display: flex
+  height: 80px
+  align-items: center
+  justify-content: center
+  border-top: 1px solid #cfcfcf
+  border-bottom: 1px solid #cfcfcf
+  background-color: #ffffff
+
+.Contact-Us__social
+  margin: 0 15px 0 15px     
+
+.Contact-Us__social--link
+  margin: 0 15px 0 15px
+  font-weight: 700
+  color: #aeaeae  
+  .fa-twitter
+    background-color: #34c5f0
+  .fa-linkedin-in
+    background-color: #127cb4
+  .fa-facebook-f
+    background-color: #336297
+  .fa-google
+    background-color: #e74237
+  .fa-pinterest-p
+    background-color: #b71c29
+  .fab
+    margin-right: 5px   
+  .fab:hover
+    cursor: pointer  
+
+.Contact-Us__social--text
+  @include font-size(18px)
+  font-weight: 700
+  text-transform: uppercase
+  color: #aeaeae
+
+/* form */  
+
+.Contact-Us__form--wrapper
+  display: flex
+  @include padding50px
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  text-align: center
+
+
+.id 
+  margin-bottom: 50px
+
+#name 
+  margin-right: 20px  
+
+#subject, #massage 
+  width: 100%
+
+.subject
+  margin: 25px 0 50px 0      
+
+.massage
+  margin: 25px 0 50px 0  
+
+form
+  margin-top: 50px
+
+input[type=text]
+  padding-bottom: 5px
+  border-bottom: 2px solid #a4a4a4
+  background-color: inherit
+  color: #757575
+  &::placeholder
+    text-transform: uppercase
+  &:focus
+    color: #757575
+    outline: 0
+    text-transform: lowercase
+    &::placeholder
+      text-transform: uppercase
+
