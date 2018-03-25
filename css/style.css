@@ -93,6 +93,16 @@ section, footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .navbar .fas {
+    font-size: 30px;
+    color: #b88b58; }
+
+.hamburger-button {
+  display: none;
+  background-color: #000000; }
+  .hamburger-button:hover {
+    background-color: #373737;
+    cursor: pointer; }
 
 .navbar__list {
   display: -webkit-box;
@@ -140,7 +150,9 @@ section, footer {
           justify-content: center;
   padding: 50px 0 50px 0;
   width: 100vw;
-  max-width: 1800px; }
+  max-width: 1800px;
+  overflow: scroll;
+  overflow-x: hidden; }
 
 .first {
   background: url(../images/hero-1.png);
@@ -295,6 +307,7 @@ section, footer {
 .About-Us__info {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  max-width: 632px;
   padding-right: 2%; }
 
 .About-Us__info--text {
@@ -303,6 +316,14 @@ section, footer {
   line-height: 25px;
   font-weight: 300;
   color: #242424; }
+
+.About-Us__video {
+  width: 445px;
+  height: 317px;
+  background: url(../images/video.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 /*Service */
 #Service {
@@ -487,7 +508,7 @@ section, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 15px 25px 15px;
+  margin: 15px;
   height: 435px;
   width: 353px;
   background: #ffffff;
@@ -973,3 +994,115 @@ footer {
 
 .subcribe {
   margin-bottom: 20px; }
+
+@media (max-width: 540px) {
+  .Contact-Us__social--wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .product-item__wrapper {
+    margin: 0 10px 0 10px; }
+
+  .product-item__service--wrapper {
+    margin-top: 20px; }
+
+  .product-item__img {
+    display: none; } }
+@media (max-width: 665px) {
+  html {
+    font-size: 14px; }
+
+  .Contact-Us__social--text {
+    display: none; } }
+@media (max-width: 690px) {
+  .client-logo__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    min-height: 125px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .client-logo__wrapper img {
+      margin: 10px; } }
+@media (max-width: 850px) {
+  .About-Us__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center; }
+
+  .About-Us__video {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+  .About-Us__info {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; } }
+@media (max-width: 850px) {
+  .About-Us__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center; }
+
+  .About-Us__video {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+  .About-Us__info {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; } }
+@media (max-width: 935px) {
+  .carousel__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  #Our-Team .bullets__list {
+    bottom: 25px; }
+
+  .Our-Team__card {
+    width: 280px;
+    height: 400px; }
+
+  .product-item__service--wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 15px; } }
+@media (max-width: 997px) {
+  .navbar {
+    height: auto;
+    min-height: 80px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .navbar__list {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    line-height: 21px;
+    margin: 50px auto 10px auto; }
+
+  .hamburger-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+@media (max-width: 1138px) {
+  .product-card-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .product-card {
+    margin: 10px; } }
