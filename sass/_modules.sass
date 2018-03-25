@@ -674,4 +674,54 @@ input[type=text]
   margin-left: 10%
   margin-bottom: 15px
   @include font-size(13px)
-  color: #7e7e7e    
+  color: #7e7e7e
+
+/* Footer */
+
+footer 
+  background-color: #000000
+
+.footer--wrapper
+  display: flex
+  justify-content: space-between
+  padding: 25px 0 25px 0
+
+.footer-item
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  min-height: 200px
+  max-width: 350px
+  width: 100%
+  .fab
+    margin: 0 2px 0 2px
+    background-color: #373737
+    &:hover
+      background-color: #b88b58
+
+.footer-text
+  @include font-size(14px)
+  line-height: 20px
+  color: #7e7e7e
+
+.footer__contact--wrapper
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  height: 100%
+  background-color: #373737
+  text-align: center
+  form 
+    margin-top: 0
+  input[type=text]
+    text-align: center  
+
+.copyright
+  align-items: flex-end
+  @include font-size(14px)
+  text-transform: uppercase
+  color: #ffffff
+
+.subcribe
+  margin-bottom: 20px  
