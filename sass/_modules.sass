@@ -643,3 +643,35 @@ input[type=text]
     &::placeholder
       text-transform: uppercase
 
+/* Map */  
+
+.Contact-Us__map--wrapper
+  display: flex
+  align-items: center
+  height: 400px
+  background: url(../images/Contat-Us/map.png)
+  @include background-properties
+
+.Contact-Us__map--card
+  display: flex
+  justify-content: center
+  flex-direction: column
+  height: 340px
+  max-width: 500px
+  background-color: #ffffff
+  .fas, .far
+    width: 35px
+    height: 35px
+    margin-right: 10px
+    border-radius: 50%
+    line-height: 35px
+    background-color: #bebebe
+    font-size: 15px
+    text-align: center
+    color: #ffffff
+
+.Contact-Us__card--text
+  margin-left: 10%
+  margin-bottom: 15px
+  @include font-size(13px)
+  color: #7e7e7e    
