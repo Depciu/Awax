@@ -532,9 +532,6 @@ section, footer {
   font-size: 0.8823529412rem;
   color: #242424; }
 
-.social-icons__link {
-  margin: 3px; }
-
 .fab {
   display: inline-block;
   width: 35px;
@@ -574,7 +571,7 @@ section, footer {
   color: #7e7e7e; }
 
 .Happy-Clients__quote {
-  margin: 5px 10px 0 10px;
+  margin-top: 1.5%;
   font-size: 0.9411764706rem;
   line-height: 25px;
   color: #7e7e7e; }
@@ -785,7 +782,7 @@ section, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 80px;
+  height: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -800,7 +797,7 @@ section, footer {
   margin: 0 15px 0 15px; }
 
 .Contact-Us__social--link {
-  margin: 10px;
+  margin: 0 15px 0 15px;
   font-weight: 700;
   color: #aeaeae; }
   .Contact-Us__social--link .fa-twitter {
@@ -924,7 +921,6 @@ input[type=text] {
 .Contact-Us__card--text {
   margin-left: 10%;
   margin-bottom: 15px;
-  line-height: 21px;
   font-size: 0.7647058824rem;
   color: #7e7e7e; }
 
@@ -954,10 +950,9 @@ footer {
           flex-direction: column;
   min-height: 200px;
   max-width: 350px;
-  margin: 10px;
   width: 100%; }
   .footer-item .fab {
-    margin: 0 1px 0 1px;
+    margin: 0 2px 0 2px;
     background-color: #373737; }
     .footer-item .fab:hover {
       background-color: #b88b58; }
@@ -1000,18 +995,6 @@ footer {
 .subcribe {
   margin-bottom: 20px; }
 
-@media (max-width: 407px) {
-  .About-Us__video {
-    display: none; }
-
-  .Contact-Us__form--wrapper #name {
-    width: 100%;
-    margin-bottom: 30px; }
-  .Contact-Us__form--wrapper #email {
-    width: 100%; }
-
-  form {
-    overflow-x: hidden; } }
 @media (max-width: 540px) {
   .Contact-Us__social--wrapper {
     -ms-flex-wrap: wrap;
@@ -1025,16 +1008,6 @@ footer {
 
   .product-item__img {
     display: none; } }
-@media (max-width: 600px) {
-  .hero__item--title {
-    font-size: 40px; } }
-@media (max-width: 425px) {
-  .hero__item--title {
-    font-size: 30px;
-    margin-bottom: 40px; }
-
-  .hero__item--text {
-    margin-bottom: 40px; } }
 @media (max-width: 665px) {
   html {
     font-size: 14px; }
@@ -1052,23 +1025,6 @@ footer {
             justify-content: center; }
     .client-logo__wrapper img {
       margin: 10px; } }
-@media (max-width: 800px) {
-  .Service__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-
-  .Service__item {
-    margin: 10px;
-    border: none; }
-    .Service__item:last-child {
-      border: none; }
-
-  .Some__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-
-  .Some__item {
-    margin: 10px; } }
 @media (max-width: 850px) {
   .About-Us__content {
     -ms-flex-wrap: wrap;
@@ -1083,28 +1039,22 @@ footer {
   .About-Us__info {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
-            order: 2; }
-
-  .footer--wrapper {
+            order: 2; } }
+@media (max-width: 850px) {
+  .About-Us__content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .footer--wrapper .first-item {
-      -webkit-box-ordinal-group: 4;
-          -ms-flex-order: 3;
-              order: 3;
-      text-align: center; }
-    .footer--wrapper .second-item {
-      -webkit-box-ordinal-group: 3;
-          -ms-flex-order: 2;
-              order: 2;
-      text-align: center; }
-    .footer--wrapper .third-item {
-      -webkit-box-ordinal-group: 2;
-          -ms-flex-order: 1;
-              order: 1; } }
+    text-align: center; }
+
+  .About-Us__video {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+  .About-Us__info {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; } }
 @media (max-width: 935px) {
   .carousel__item {
     -ms-flex-wrap: wrap;
